@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*@type {import('tailwindcss').Config}*/
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}';
+    './components/**/*.{js,ts,jsx,tsx}';
+    './app/**/*.{js,ts,jsx,tsx}';
+  ];
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)'];
+        mono: ['var(--font-roboto-mono)'];
+      };
+    };
+  };
+  plugins: [];
+}
+
+h1 {
+    font-size: 600%;
+}
+
+h2 {
+    font-size: 250%;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+main {
+    text-align: center;
+    background-color: #F0EAD6;
+    height: 100vh;
+    width: 100vw;
+}
+
+button {
+    padding: 10px;
+}
+
+.linker {
+     cursor:pointer;
+     color:blue;
+     text-decoration:underline;
+}
+
+/*:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+*/
