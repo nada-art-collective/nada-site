@@ -87,7 +87,7 @@ export default function Home() {
   }
   
   return (
-    <div className={mono.className}>
+    // <div className={mono.className}>
         <main className={' main-content items-center p-24'}>
           <h1 key='1'>N. A. D. A.</h1>
           <h2 key='2'>an art collective</h2>
@@ -106,6 +106,6 @@ export default function Home() {
             {arts.map(art => <Art art={art} /> )}
           </div>
         </main>
-    </div>
+    // </div>
 )
 }
