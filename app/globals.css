@@ -26,6 +26,10 @@ main {
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
 html {
     background-color: #F0EAD6;
     border: none;
@@ -48,5 +52,3 @@ button {
     color:blue;
     text-decoration:underline;
 }
-
-
