@@ -19,6 +19,12 @@ main {
     width: 100vw;
 }
 
+html {
+    background-color: #F0EAD6;
+    border: none;
+    padding: 0px;
+}
+
 button {
     padding: 10px;
     border: none;
