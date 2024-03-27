@@ -79,9 +79,9 @@ export default function Home() {
     }
 
     return (
-      <button key={artist.text} className='linker' onClick={buttonClick}>
+      <div key={artist.text} className='linker' onClick={buttonClick}>
         WORKS BY {artist.text}
-      </button>)
+      </div>)
   }
   
   return (
