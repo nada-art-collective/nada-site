@@ -1,5 +1,9 @@
+test {
+    font-size: 200%;
+}
+
 h1 {
-    font-size: 600%;
+    font-size: 700%;
     margin: 0;
 }
 
