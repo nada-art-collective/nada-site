@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 const mono = Roboto_Mono({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
+  weight: ['400'],
+  style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
 })
