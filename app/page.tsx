@@ -87,23 +87,25 @@ export default function Home() {
   }
   
   return (
-    <main className={mono.className + ' main-content items-center p-24'}>
-      <h1 key='1'>N. A. D. A.</h1>
-      <h2 key='2'>an art collective</h2>
-      <div key='3'>
-        <h3 key='1'>1: make art together</h3>
-        <h3 key='2'>2: ask questions if you have questions</h3>
-        <h3 key='3'>3: offer knowledge if you have knowledge</h3>
-      </div>
-      <button key='4' className = 'linker' onClick={() => setArts(initialArts)}>ALL WORKS</button>
-      <div key='5'>
-        {artists.map(a => <ArtistButton artist={{text: a}} /> )}
-      </div>
-      <br key='6'/>
-      <br key='7'/>
-      <div key='8'>
-        {arts.map(art => <Art art={art} /> )}
-      </div>
-    </main>
+    <div className={mono.className}>
+        <main className={' main-content items-center p-24'}>
+          <h1 key='1'>N. A. D. A.</h1>
+          <h2 key='2'>an art collective</h2>
+          <div key='3'>
+            <h3 key='1'>1: make art together</h3>
+            <h3 key='2'>2: ask questions if you have questions</h3>
+            <h3 key='3'>3: offer knowledge if you have knowledge</h3>
+          </div>
+          <button key='4' className = 'linker' onClick={() => setArts(initialArts)}>ALL WORKS</button>
+          <div key='5'>
+            {artists.map(a => <ArtistButton artist={{text: a}} /> )}
+          </div>
+          <br key='6'/>
+          <br key='7'/>
+          <div key='8'>
+            {arts.map(art => <Art art={art} /> )}
+          </div>
+        </main>
+    </div>
 )
 }
