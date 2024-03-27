@@ -3,22 +3,7 @@
 @tailwind utilities;
 
 /*@type {import('tailwindcss').Config}*/
-module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}';
-    './components/**/*.{js,ts,jsx,tsx}';
-    './app/**/*.{js,ts,jsx,tsx}';
-  ];
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ['var(--font-inter)'];
-        mono: ['var(--font-roboto-mono)'];
-      };
-    };
-  };
-  plugins: [];
-}
+
 
 h1 {
     font-size: 600%;
@@ -38,6 +23,7 @@ main {
     background-color: #F0EAD6;
     height: 100vh;
     width: 100vw;
+    padding: 24px;
 }
 
 button {
