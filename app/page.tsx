@@ -2,7 +2,8 @@
 
 import { Roboto_Mono } from 'next/font/google'
 import { useState } from 'react'
-import './global.css'
+
+import './globals.css'
 
  
 const mono = Roboto_Mono({
