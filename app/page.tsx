@@ -57,10 +57,9 @@ export default function Home() {
   const initialArts = [art1, art2, art3, art4];
   const [arts, setArts] = useState(initialArts);
 
-
-
   const artists = [
-    'a1', 'a2',
+    'a1',
+    'a2',
   ]
 
   function ArtistButton({artist} : {artist : any}) {
@@ -83,7 +82,7 @@ export default function Home() {
   
   return (
     // <div className={mono.className}>
-        <main>
+        <main className={mono.className}>
           <h1 key='1'>N. A. D. A.</h1>
           <h2 key='2'>an art collective</h2>
           <div key='3'>
