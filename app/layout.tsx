@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={mono.className}>{children}</body>
+    <html lang="en" className={mono.className}>
+      <body >{children}</body>
     </html>
   );
 }
