@@ -21,6 +21,8 @@ main {
 
 button {
     padding: 10px;
+    border: none;
+    background-color: transparent;
 }
 
 .linker {
