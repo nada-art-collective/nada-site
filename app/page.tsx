@@ -1,17 +1,19 @@
 'use client'
 
-import { Roboto_Mono } from 'next/font/google'
+// import { Roboto_Mono } from 'next/font/google'
 import { useState } from 'react'
 
 import './globals.css'
 
+
+
  
-const mono = Roboto_Mono({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  display: 'swap',
-})
+// const mono = Roboto_Mono({
+//   weight: ['400', '700'],
+//   style: ['normal', 'italic'],
+//   subsets: ['latin'],
+//   display: 'swap',
+// })
 
 function Art({art} : {art : any}) {
   return ( art.content );
@@ -84,7 +86,8 @@ export default function Home() {
   
   return (
     // <div className={mono.className}>
-        <main className={mono.className}>
+        // <main className={mono.className}>
+        <main>
           <h1 key='1'>N. A. D. A.</h1>
           <h2 key='2'>an art collective</h2>
           <div key='3'>
