@@ -5,8 +5,8 @@ import { useState } from 'react'
 
  
 const mono = Roboto_Mono({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
+  weight: ['400'],
+  style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
 })
