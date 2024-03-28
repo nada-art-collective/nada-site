@@ -23,7 +23,7 @@ function Art({art} : {art : any}) {
 
 const art1 = {
   title: 'The Departure of Vell',
-  authors: ['Maggie Sullivan', 'Autumn Shelby'],
+  authors: ['MAGGIE SULLIVAN', 'AUTUMN SHELBY'],
   content: 
   <div key='The Departure of Vell' className='parent'> 
     <p className='child'>
@@ -37,7 +37,7 @@ const art1 = {
 
 const art2 = {
   title: 'Placeholder 1',
-  authors: ['Kier Zimmerman'],
+  authors: ['KIER ZIMMERMAN'],
   content: 
   <div key='t2' className='parent'> 
     <p className='child'>
@@ -48,7 +48,7 @@ const art2 = {
 
 const art3 = {
   title: 'Placeholder 2',
-  authors: ['Maggie Sullivan'],
+  authors: ['MAGGIE SULLIVAN'],
   content: 
   <div key='t3' className='parent'> 
     <p className='child'>
@@ -59,7 +59,7 @@ const art3 = {
 
 const art4 = {
   title: 'Placeholder 3',
-  authors: ['Kier Zimmerman', 'Maggie Sullivan'],
+  authors: ['KIER ZIMMERMAN', 'MAGGIE SULLIVAN'],
   content:
   <div key='t4' className='parent'>
     <p className='child'>
@@ -75,9 +75,13 @@ export default function Home() {
   const [arts, setArts] = useState(initialArts);
 
   const artists = [
-    'Kier Zimmerman',
-    'Maggie Sullivan',
-    'Autumn Shelby'
+    'KIER ZIMMERMAN',
+    'MAGGIE SULLIVAN',
+    'AUTUMN SHELBY',
+    'TEST ONE',
+    'TEST TWO',
+    'TEST THREE',
+    'TEST FOUR'
   ]
 
   function ArtistButton({artist} : {artist : any}) {
@@ -111,7 +115,9 @@ export default function Home() {
           </div>
           <h4 key='4' className='linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
           <ul key='5'>
-            {artists.map(a => <span key={a}><ArtistButton artist={{text: a}} /> </span> )}
+            <p>
+              {artists.map(a => <span key={a}><ArtistButton artist={{text: a}} /> </span> )}
+            </p>
           </ul>
           <br key='6'/>
           <br key='7'/>
