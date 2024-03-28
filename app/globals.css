@@ -27,7 +27,8 @@ h4 {
 }
 
 p {
-    width: 200px;
+    width: 500px;
+    padding: 15px;
 }
 
 main {
@@ -70,4 +71,8 @@ button {
     cursor:pointer;
     color:blue;
     text-decoration:underline;
+}
+
+.parent {
+    justify-content: center;
 }
