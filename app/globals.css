@@ -76,4 +76,5 @@ button {
 
 .parent {
     justify-content: center;
+    display: flex;
 }
