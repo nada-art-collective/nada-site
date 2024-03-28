@@ -26,7 +26,7 @@ const art1 = {
   authors: ['MAGGIE SULLIVAN', 'AUTUMN SHELBY'],
   content: 
   <div key='The Departure of Vell' className='parent'> 
-    <p className='child'>
+    <p className='left-text'>
         The Departure of Vell is a 2-part work: it includes a Tarot Deck 
         designed by Maggie Sullivan and a collaborative storytelling game 
         written by Autumn Shelby. The game uses a Tarot Deck to represent 
@@ -40,7 +40,7 @@ const art2 = {
   authors: ['KIER ZIMMERMAN'],
   content: 
   <div key='t2' className='parent'> 
-    <p className='child'>
+    <p className='left-text'>
       Placeholder 1 is a project by Kier Zimmerman.
     </p>
   </div>,
@@ -51,7 +51,7 @@ const art3 = {
   authors: ['MAGGIE SULLIVAN'],
   content: 
   <div key='t3' className='parent'> 
-    <p className='child'>
+    <p className='left-text'>
       Placeholder 2 is a project by Maggie Sullivan. 
     </p>
   </div>,
@@ -62,7 +62,7 @@ const art4 = {
   authors: ['KIER ZIMMERMAN', 'MAGGIE SULLIVAN'],
   content:
   <div key='t4' className='parent'>
-    <p className='child'>
+    <p className='left-text'>
       Placeholder 3 is a project by Kier Zimmerman and Maggie Sullivan.
     </p>
   </div>
@@ -96,11 +96,13 @@ export default function Home() {
       setArts(newarts);
     }
 
+
     return (
       <span key={artist.text} className='linker' onClick={buttonClick}>
         WORKS BY {artist.text}
       </span>)
   }
+
   
   return (
     // <div className={mono.className}>
@@ -114,11 +116,13 @@ export default function Home() {
             <h3 key='3'>3: offer knowledge if you have knowledge</h3>
           </div>
           <h4 key='4' className='linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
-          <ul key='5'>
-            <p>
-              {artists.map(a => <span key={a}><ArtistButton artist={{text: a}} /> </span> )}
+          <div key='5' className='parent'>
+            <p className='parent'>
+              {
+                artists.map(a => <span key={a}><ArtistButton artist={{text: a}} /> </span> )
+              }
             </p>
-          </ul>
+          </div>
           <br key='6'/>
           <br key='7'/>
           <div key='8'>

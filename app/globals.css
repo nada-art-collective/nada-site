@@ -78,3 +78,11 @@ button {
     justify-content: center;
     display: flex;
 }
+
+.left-text {
+    text-align: left;
+}
+
+.center-text {
+    text-align: center;
+}
