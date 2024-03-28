@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <h4 key='4' className='linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
           <ul key='5'>
-            {artists.map(a => <ArtistButton artist={{text: a}} /> )}
+            {artists.map(a => <span key={a}><ArtistButton artist={{text: a}} /> </span> )}
           </ul>
           <br key='6'/>
           <br key='7'/>

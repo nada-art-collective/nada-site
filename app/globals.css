@@ -45,6 +45,12 @@ html {
     margin: 0;
 }
 
+ul {
+    padding:0;
+    width:100vw;
+    text-align:center;
+}
+
 body {
     margin: 0;
 }
