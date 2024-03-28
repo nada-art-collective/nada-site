@@ -5,6 +5,7 @@ test {
 h1 {
     font-size: 600%;
     margin: 0;
+    padding: 120px;
 }
 
 h2 {
