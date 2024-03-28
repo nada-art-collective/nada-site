@@ -79,9 +79,9 @@ export default function Home() {
     }
 
     return (
-      <div key={artist.text} className='linker' onClick={buttonClick}>
+      <span key={artist.text} className='linker' onClick={buttonClick}>
         WORKS BY {artist.text}
-      </div>)
+      </span>)
   }
   
   return (
@@ -96,9 +96,9 @@ export default function Home() {
             <h3 key='3'>3: offer knowledge if you have knowledge</h3>
           </div>
           <h4 key='4' className='linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
-          <div key='5'>
+          <ul key='5'>
             {artists.map(a => <ArtistButton artist={{text: a}} /> )}
-          </div>
+          </ul>
           <br key='6'/>
           <br key='7'/>
           <div key='8'>
