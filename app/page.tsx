@@ -20,38 +20,49 @@ function Art({art} : {art : any}) {
 }
 
 const art1 = {
-  title: 't1',
-  authors: ['a1'],
+  title: 'The Departure of Vell',
+  authors: ['Maggie Sullivan', 'Autumn Shelby'],
   content: 
-  <div key='t1'> 
-    t1 is a project by a1 that d1 
+  <div key='The Departure of Vell'> 
+    <p>
+        The Departure of Vell is a 2-part work: it includes a Tarot Deck 
+        designed by Maggie Sullivan and a collaborative storytelling game 
+        written by Autumn Shelby. The game uses a Tarot Deck to represent 
+        and select aspects of the story being told.
+    </p>
   </div>,
 }
 
 const art2 = {
-  title: 't2',
-  authors: ['a2'],
+  title: 'Placeholder 1',
+  authors: ['Kier Zimmerman'],
   content: 
   <div key='t2'> 
-    t2 is a project by a2 that d2 
+    <p>
+      Placeholder 1 is a project by Kier Zimmerman.
+    </p>
   </div>,
 }
 
 const art3 = {
-  title: 't3',
-  authors: ['a2'],
+  title: 'Placeholder 2',
+  authors: ['Maggie Sullivan'],
   content: 
   <div key='t3'> 
-    t3 is a project by a2 that d3 
+    <p>
+      Placeholder 2 is a project by Maggie Sullivan. 
+    </p>
   </div>,
 }
 
 const art4 = {
-  title: 't4',
-  authors: ['a1', 'a2'],
+  title: 'Placeholder 3',
+  authors: ['Kier Zimmerman', 'Maggie Sullivan'],
   content:
   <div key='t4'>
-    t4 is a project by a1 and a2 that d4
+    <p>
+      Placeholder 3 is a project by Kier Zimmerman and Maggie Sullivan.
+    </p>
   </div>
 }
 
@@ -62,8 +73,9 @@ export default function Home() {
   const [arts, setArts] = useState(initialArts);
 
   const artists = [
-    'a1',
-    'a2',
+    'Kier Zimmerman',
+    'Maggie Sullivan',
+    'Autumn Shelby'
   ]
 
   function ArtistButton({artist} : {artist : any}) {
