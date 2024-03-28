@@ -26,7 +26,7 @@ const art1 = {
   authors: ['Maggie Sullivan', 'Autumn Shelby'],
   content: 
   <div key='The Departure of Vell' className='parent'> 
-    <p>
+    <p className='child'>
         The Departure of Vell is a 2-part work: it includes a Tarot Deck 
         designed by Maggie Sullivan and a collaborative storytelling game 
         written by Autumn Shelby. The game uses a Tarot Deck to represent 
@@ -40,7 +40,7 @@ const art2 = {
   authors: ['Kier Zimmerman'],
   content: 
   <div key='t2' className='parent'> 
-    <p>
+    <p className='child'>
       Placeholder 1 is a project by Kier Zimmerman.
     </p>
   </div>,
@@ -51,7 +51,7 @@ const art3 = {
   authors: ['Maggie Sullivan'],
   content: 
   <div key='t3' className='parent'> 
-    <p>
+    <p className='child'>
       Placeholder 2 is a project by Maggie Sullivan. 
     </p>
   </div>,
@@ -62,7 +62,7 @@ const art4 = {
   authors: ['Kier Zimmerman', 'Maggie Sullivan'],
   content:
   <div key='t4' className='parent'>
-    <p>
+    <p className='child'>
       Placeholder 3 is a project by Kier Zimmerman and Maggie Sullivan.
     </p>
   </div>
