@@ -27,7 +27,7 @@ h4 {
 }
 
 p {
-    width: 500px;
+    max-width: 500px;
     padding: 15px;
     text-align: left;
 }
@@ -76,8 +76,4 @@ button {
 
 .parent {
     justify-content: center;
-}
-
-.child {
-    position: absolute;
 }
