@@ -29,7 +29,6 @@ h4 {
 p {
     max-width: 800px;
     padding: 15px;
-    text-align: left;
 }
 
 main {
@@ -55,7 +54,6 @@ html {
 ul {
     padding:0;
     width:100vw;
-    text-align:center;
 }
 
 body {

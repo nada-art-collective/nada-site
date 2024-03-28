@@ -117,7 +117,7 @@ export default function Home() {
           </div>
           <h4 key='4' className='linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
           <div key='5' className='parent'>
-            <p className='parent'>
+            <p>
               {
                 artists.map(a => <span key={a}><ArtistButton artist={{text: a}} /> </span> )
               }
