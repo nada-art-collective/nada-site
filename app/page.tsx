@@ -104,6 +104,13 @@ export default function Home() {
           <div key='8'>
             {arts.map(art => <Art art={art} /> )}
           </div>
+          <div key='9'>
+            <br key='1'>
+            <br key='2'>
+            <br key='3'>
+            <br key='4'>
+            <br key='5'>
+          </div>
         </main>
     // </div>
 )
