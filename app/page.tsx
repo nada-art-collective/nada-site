@@ -99,14 +99,13 @@ export default function Home() {
 
     return (
       <span key={artist.text} className='linker' onClick={buttonClick}>
-        WORKS BY {artist.text}
+        | WORKS BY {artist.text} |
       </span>)
   }
 
-  
+  let counter = 0;
+
   return (
-    // <div className={mono.className}>
-        // <main className={mono.className}>
         <main>
           <h1 key='1'>N. A. D. A.</h1>
           <h2 key='2'>an art collective</h2>
@@ -119,7 +118,7 @@ export default function Home() {
           <div key='5' className='parent'>
             <p>
               {
-                artists.map(a => <span key={a}><ArtistButton artist={{text: a}} /> </span> )
+                artists.map(a => <ArtistButton artist={{text: a}} /> )
               }
             </p>
           </div>
