@@ -54,11 +54,13 @@ const art3 = {
   title: 'untitled 4',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t3' className='parent img-holder'> 
-    <ExportedImage
-      src={sullivanUntitled4}
-      alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
-    />
+  <div key='t3' className='parent'> 
+    <div className='img-holder'>
+      <ExportedImage
+        src={sullivanUntitled4}
+        alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
+      />
+    </div>
   </div>,
 }
 
@@ -77,11 +79,13 @@ const art5 = {
   title: 'untitled 5',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t5' className='parent img-holder'> 
-    <ExportedImage
-      src={sullivanUntitled5}
-      alt="Print of a child scared and crouched. Shadows of ghosts across the wall behind them and their face."
-    />
+  <div key='t5' className='parent'> 
+    <div className='img-holder'>
+      <ExportedImage
+        src={sullivanUntitled5}
+        alt="Print of a child scared and crouched. Shadows of ghosts across the wall behind them and their face."
+      />
+    </div>
   </div>,
 }
 
@@ -89,17 +93,19 @@ const art6 = {
   title: 'Delles',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t5' className='parent img-holder'> 
-    <ExportedImage
-      key='1'
-      src={sullivanDelles}
-      alt="Print of a room."
-    />
-    <ExportedImage
-      key='2'
-      src={sullivanDellesMis}
-      alt="Print of a room, but half the elements are upside-down and backwards printed."
-    />
+  <div key='t5' className='parent'> 
+    <div className='img-holder'>
+        <ExportedImage
+          key='1'
+          src={sullivanDelles}
+          alt="Print of a room."
+        />
+        <ExportedImage
+          key='2'
+          src={sullivanDellesMis}
+          alt="Print of a room, but half the elements are upside-down and backwards printed."
+        />
+    </div>
   </div>,
 }
 

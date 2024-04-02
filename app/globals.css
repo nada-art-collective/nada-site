@@ -85,6 +85,8 @@ button {
 .parent {
     justify-content: center;
     display: flex;
+    padding: 20px;
+    width: 100vw;
 }
 
 .left-text {
