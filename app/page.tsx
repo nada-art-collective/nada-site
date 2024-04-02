@@ -4,6 +4,7 @@
 import { useState } from 'react'
 
 import './globals.css'
+import Image from 'next/image'
 
 
 
@@ -47,13 +48,14 @@ const art2 = {
 }
 
 const art3 = {
-  title: 'Placeholder 2',
+  title: 'untitled 4',
   authors: ['MAGGIE SULLIVAN'],
   content: 
   <div key='t3' className='parent'> 
-    <p className='left-text'>
-      Placeholder 2 is a project by Maggie Sullivan. 
-    </p>
+    <Image
+      src="assets/sullivan-untitled-4.pdf"
+      alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
+    />
   </div>,
 }
 
