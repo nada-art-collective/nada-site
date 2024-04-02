@@ -30,6 +30,7 @@ const art1 = {
   authors: ['MAGGIE SULLIVAN', 'AUTUMN SHELBY'],
   content: 
   <div key='The Departure of Vell' className='parent'> 
+    <h3>The Departure of Vell</h3>
     <p className='left-text'>
         The Departure of Vell is a 2-part work: it includes a Tarot Deck 
         designed by Maggie Sullivan and a collaborative storytelling game 
@@ -44,6 +45,7 @@ const art2 = {
   authors: ['KIER ZIMMERMAN'],
   content: 
   <div key='t2' className='parent'> 
+    <h3>Placeholder 1</h3>
     <p className='left-text'>
       Placeholder 1 is a project by Kier Zimmerman.
     </p>
@@ -51,10 +53,12 @@ const art2 = {
 }
 
 const art3 = {
-  title: 'untitled 4',
+  title: 'Untitled 4',
   authors: ['MAGGIE SULLIVAN'],
   content: 
   <div key='t3' className='parent'> 
+    <h3>Untitled 4</h3>
+    <p>Untitled 4: silk screen on paper.</p>
     <div className='img-holder'>
       <ExportedImage
         src={sullivanUntitled4}
@@ -69,6 +73,7 @@ const art4 = {
   authors: ['KIER ZIMMERMAN', 'MAGGIE SULLIVAN'],
   content:
   <div key='t4' className='parent'>
+    <h3>Placeholder 3</h3>
     <p className='left-text'>
       Placeholder 3 is a project by Kier Zimmerman and Maggie Sullivan.
     </p>
@@ -76,10 +81,12 @@ const art4 = {
 }
 
 const art5 = {
-  title: 'untitled 5',
+  title: 'Untitled 5',
   authors: ['MAGGIE SULLIVAN'],
   content: 
   <div key='t5' className='parent'> 
+    <h3>Untitled 5</h3>
+    <p>Untitled 5: silk screen on paper.</p>
     <div className='img-holder'>
       <ExportedImage
         src={sullivanUntitled5}
@@ -90,10 +97,12 @@ const art5 = {
 }
 
 const art6 = {
-  title: 'Delles',
+  title: 'Room in Delles',
   authors: ['MAGGIE SULLIVAN'],
   content: 
   <div key='t5' className='parent'> 
+    <h3>Room in Delles</h3>
+    <p>Room in Delles: intaglio on paper.</p>
     <div className='img-holder'>
         <ExportedImage
           key='1'
