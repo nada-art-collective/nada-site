@@ -2,6 +2,12 @@ test {
     font-size: 200%;
 }
 
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+
 h1 {
     font-size: 600%;
     margin: 0;
