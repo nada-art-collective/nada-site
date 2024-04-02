@@ -78,6 +78,10 @@ button {
     text-decoration:underline;
 }
 
+.img-holder {
+    max-width: 50vw;
+}
+
 .parent {
     justify-content: center;
     display: flex;
