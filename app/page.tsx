@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 import './globals.css'
 import Image from 'next/image'
+import sullivanUntitled4 from './assets/sullivan-untitled-4.pdf'
 
 
 
@@ -53,7 +54,7 @@ const art3 = {
   content: 
   <div key='t3' className='parent'> 
     <Image
-      src="assets/sullivan-untitled-4.pdf"
+      src={sullivanUntitled4}
       alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
     />
   </div>,
