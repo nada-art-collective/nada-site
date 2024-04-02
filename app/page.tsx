@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 import './globals.css'
 import Image from 'next/image'
-import sullivanUntitled4 from './assets/sullivan-untitled-4.pdf'
+import sullivanUntitled4 from './assets/sullivan-untitled-4.jpg'
 
 
 
