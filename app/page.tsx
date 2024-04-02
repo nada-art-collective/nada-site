@@ -4,8 +4,8 @@
 import { useState } from 'react'
 
 import './globals.css'
-import Image from 'next/image'
-import sullivanUntitled4 from '../public/sullivan-untitled-4.jpg'
+import ExportedImage from 'next-image-export-optimizer'
+import sullivanUntitled4 from '../public/images/sullivan-untitled-4.jpg'
 
 
 
@@ -53,7 +53,7 @@ const art3 = {
   authors: ['MAGGIE SULLIVAN'],
   content: 
   <div key='t3' className='parent'> 
-    <Image
+    <ExportedImage
       src={sullivanUntitled4}
       alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
     />
