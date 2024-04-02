@@ -6,7 +6,9 @@ import { useState } from 'react'
 import './globals.css'
 import ExportedImage from 'next-image-export-optimizer'
 import sullivanUntitled4 from '../public/images/sullivan-untitled-4.jpg'
-
+import sullivanUntitled5 from '../public/images/sullivan-untitled-5.jpg'
+import sullivanDelles from '../public/images/sullivan-delles.jpg'
+import sullivanDellesMis from '../public/images/sullivan-delles-misprint.jpg'
 
 
  
@@ -71,10 +73,42 @@ const art4 = {
   </div>
 }
 
+const art5 = {
+  title: 'untitled 5',
+  authors: ['MAGGIE SULLIVAN'],
+  content: 
+  <div key='t5' className='parent'> 
+    <ExportedImage
+      src={sullivanUntitled5}
+      alt="Print of a child scared and crouched. Shadows of ghosts across the wall behind them and their face."
+    />
+  </div>,
+}
+
+const art6 = {
+  title: 'Delles',
+  authors: ['MAGGIE SULLIVAN'],
+  content: 
+  <div key='t5' className='parent'> 
+    <ExportedImage
+      key='1'
+      src={sullivanDelles}
+      alt="Print of a room."
+    />
+    <ExportedImage
+      key='2'
+      src={sullivanDellesMis}
+      alt="Print of a room, but half the elements are upside-down and backwards printed."
+    />
+  </div>,
+}
+
 
 
 export default function Home() {
-  const initialArts = [art1, art2, art3, art4];
+  const initialArts = [
+    art1, art2, art3, art4, art5, 
+    art6];
   const [arts, setArts] = useState(initialArts);
 
   const artists = [
