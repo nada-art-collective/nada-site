@@ -76,9 +76,11 @@ const art3 = {
   content: 
   <div key='t3'> 
     <h3>Untitled 4</h3>
-    <p className='center-text'>
-      silk screen on paper
-    </p>
+    <div className='parent'>
+      <p className='center-text'>
+        silk screen on paper
+      </p>
+    </div>
     <div className='parent'>
       <br/>
       <div className='img-holder'>
@@ -111,7 +113,9 @@ const art5 = {
   content: 
   <div key='t5'> 
     <h3>Untitled 5</h3>
-    <p className='center-text'>silk screen on paper</p>
+    <div className='parent'>
+      <p className='center-text'>silk screen on paper</p>
+    </div>
     <div className='parent'>
       <div className='img-holder'>
         <ExportedImage
@@ -129,7 +133,9 @@ const art6 = {
   content: 
   <div key='t6'> 
     <h3>Room in Delles</h3>
-    <p className='center-text'>intaglio on paper</p>
+    <div className='parent'>
+      <p className='center-text'>intaglio on paper</p>
+    </div>
     <div className='parent'>
       <div className='img-holder'>
           <ExportedImage
