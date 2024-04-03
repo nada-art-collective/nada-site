@@ -29,15 +29,16 @@ const art1 = {
   title: 'The Departure of Vell',
   authors: ['MAGGIE SULLIVAN', 'AUTUMN SHELBY'],
   content: 
-  <div key='The Departure of Vell' className='parent'> 
+  <div key='The Departure of Vell'> 
     <h3>The Departure of Vell</h3>
-    <br/>
-    <p className='left-text'>
-        The Departure of Vell is a 2-part work: it includes a Tarot Deck 
-        designed by Maggie Sullivan and a collaborative storytelling game 
-        written by Autumn Shelby. The game uses a Tarot Deck to represent 
-        and select aspects of the story being told.
-    </p>
+    <div className='parent'>
+      <p className='left-text'>
+          The Departure of Vell is a 2-part work: it includes a Tarot Deck 
+          designed by Maggie Sullivan and a collaborative storytelling game 
+          written by Autumn Shelby. The game uses a Tarot Deck to represent 
+          and select aspects of the story being told.
+      </p>
+    </div>
   </div>,
 }
 
@@ -45,12 +46,13 @@ const art2 = {
   title: 'Placeholder 1',
   authors: ['KIER ZIMMERMAN'],
   content: 
-  <div key='t2' className='parent'> 
+  <div key='t2'> 
     <h3>Placeholder 1</h3>
-    <br/>
-    <p className='left-text'>
-      Placeholder 1 is a project by Kier Zimmerman.
-    </p>
+    <div className='parent'>
+      <p className='left-text'>
+        Placeholder 1 is a project by Kier Zimmerman.
+      </p>
+    </div>
   </div>,
 }
 
@@ -58,16 +60,17 @@ const art3 = {
   title: 'Untitled 4',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t3' className='parent'> 
+  <div key='t3'> 
     <h3>Untitled 4</h3>
-    <br/>
-    <p>Untitled 4: silk screen on paper.</p>
-    <br/>
-    <div className='img-holder'>
-      <ExportedImage
-        src={sullivanUntitled4}
-        alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
-      />
+    <div className='parent'>
+      <p>Untitled 4: silk screen on paper.</p>
+      <br/>
+      <div className='img-holder'>
+        <ExportedImage
+          src={sullivanUntitled4}
+          alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
+        />
+      </div>
     </div>
   </div>,
 }
