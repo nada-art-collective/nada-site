@@ -187,7 +187,7 @@ export default function Home() {
   let counter = 0;
 
   return (
-        <main className='parent'>
+        <main>
           <h1 className='center-text' key='1'>N. A. D. A.</h1>
           <h2 className='center-text' key='2'>an art collective</h2>
           <div key='3'>
