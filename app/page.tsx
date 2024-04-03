@@ -43,7 +43,7 @@ const art1 = {
   title: 'The Departure of Vell',
   authors: ['MAGGIE SULLIVAN', 'AUTUMN SHELBY'],
   content: 
-  <div key='t1'> 
+  <div key='t1' className='art'> 
     <h3>The Departure of Vell</h3>
     <div className='parent'>
       <p className='left-text'>
@@ -60,7 +60,7 @@ const art2 = {
   title: 'Placeholder 1',
   authors: ['KIER ZIMMERMAN'],
   content: 
-  <div key='t2'> 
+  <div key='t2' className='art'> 
     <h3>Placeholder 1</h3>
     <div className='parent'>
       <p className='left-text'>
@@ -74,7 +74,7 @@ const art3 = {
   title: 'Untitled 4',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t3'> 
+  <div key='t3' className='art'> 
     <h3>Untitled 4</h3>
     <div className='parent'>
       <p className='left-text'>
@@ -97,7 +97,7 @@ const art4 = {
   title: 'Placeholder 3',
   authors: ['KIER ZIMMERMAN', 'MAGGIE SULLIVAN'],
   content:
-  <div key='t4'>
+  <div key='t4' className='art'>
     <h3>Placeholder 3</h3>
     <div className='parent'>
       <p className='left-text'>
@@ -111,7 +111,7 @@ const art5 = {
   title: 'Untitled 5',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t5'> 
+  <div key='t5' className='art'> 
     <h3>Untitled 5</h3>
     <div className='parent'>
       <p className='left-text'>
@@ -133,7 +133,7 @@ const art6 = {
   title: 'Room in Delles',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t6'> 
+  <div key='t6' className='art'> 
     <h3>Room in Delles</h3>
     <div className='parent'>
       <p className='left-text'>
