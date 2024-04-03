@@ -11,14 +11,6 @@ import sullivanDelles from '../public/images/sullivan-delles.jpg'
 import sullivanDellesMis from '../public/images/sullivan-delles-misprint.jpg'
 
 
- 
-// const mono = Roboto_Mono({
-//   weight: ['400', '700'],
-//   style: ['normal', 'italic'],
-//   subsets: ['latin'],
-//   display: 'swap',
-// })
-
 function Art({art} : {art : any}) {
   return (
     art.content
@@ -209,9 +201,9 @@ export default function Home() {
           <h1 className='center-text' key='1'>N. A. D. A.</h1>
           <h2 className='center-text' key='2'>an art collective</h2>
           <div key='3'>
-            <h3 className='center-text' key='1'>1: make art together</h3>
-            <h3 className='center-text' key='2'>2: ask questions if you have questions</h3>
-            <h3 className='center-text' key='3'>3: offer knowledge if you have knowledge</h3>
+            <h3 className='center-text' key='1'>make art together</h3>
+            <h3 className='center-text' key='2'>ask questions if you have questions</h3>
+            <h3 className='center-text' key='3'>offer knowledge if you have knowledge</h3>
           </div>
           <h4 key='4' className='center-text linker' onClick={() => setArts(initialArts)}>SHOW ALL WORKS</h4>
           <h4 key='4' className='center-text linker' onClick={() => randomizeArts()}>SHOW ALL WORKS IN A RANDOM ORDER</h4>
