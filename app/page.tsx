@@ -77,7 +77,7 @@ const art3 = {
   <div key='t3'> 
     <h3>Untitled 4</h3>
     <div className='parent'>
-      <p className='center-text'>
+      <p className='left-text'>
         silk screen on paper
       </p>
     </div>
@@ -114,7 +114,9 @@ const art5 = {
   <div key='t5'> 
     <h3>Untitled 5</h3>
     <div className='parent'>
-      <p className='center-text'>silk screen on paper</p>
+      <p className='left-text'>
+        silk screen on paper
+      </p>
     </div>
     <div className='parent'>
       <div className='img-holder'>
@@ -134,7 +136,9 @@ const art6 = {
   <div key='t6'> 
     <h3>Room in Delles</h3>
     <div className='parent'>
-      <p className='center-text'>intaglio on paper</p>
+      <p className='left-text'>
+        intaglio on paper
+      </p>
     </div>
     <div className='parent'>
       <div className='img-holder'>
@@ -202,7 +206,7 @@ export default function Home() {
             <h3 className='center-text' key='3'>3: offer knowledge if you have knowledge</h3>
           </div>
           <h4 key='4' className='center-text linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
-          <div key='5' className='parent'>
+          <div key='5' className='parent center-text'>
             <p>
               {
                 artists.map(a => <ArtistButton artist={{text: a}} /> )
