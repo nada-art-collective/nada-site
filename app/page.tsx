@@ -47,10 +47,10 @@ const art1 = {
     <h3>The Departure of Vell</h3>
     <div className='parent'>
       <p className='left-text'>
-          The Departure of Vell is a 2-part work: it includes a Tarot Deck 
-          designed by Maggie Sullivan and a collaborative storytelling game 
-          written by Autumn Shelby. The game uses a Tarot Deck to represent 
-          and select aspects of the story being told.
+        The Departure of Vell is a 2-part work: it includes a Tarot Deck 
+        designed by Maggie Sullivan and a collaborative storytelling game 
+        written by Autumn Shelby. The game uses a Tarot Deck to represent 
+        and select aspects of the story being told.
       </p>
     </div>
   </div>,
@@ -76,7 +76,9 @@ const art3 = {
   content: 
   <div key='t3'> 
     <h3>Untitled 4</h3>
-    <p className='center-text'>silk screen on paper</p>
+    <p className='center-text'>
+      silk screen on paper
+    </p>
     <div className='parent'>
       <br/>
       <div className='img-holder'>
