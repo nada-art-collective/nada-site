@@ -187,15 +187,15 @@ export default function Home() {
   let counter = 0;
 
   return (
-        <main>
-          <h1 key='1'>N. A. D. A.</h1>
-          <h2 key='2'>an art collective</h2>
+        <main className='parent'>
+          <h1 className='center-text' key='1'>N. A. D. A.</h1>
+          <h2 className='center-text' key='2'>an art collective</h2>
           <div key='3'>
-            <h3 key='1'>1: make art together</h3>
-            <h3 key='2'>2: ask questions if you have questions</h3>
-            <h3 key='3'>3: offer knowledge if you have knowledge</h3>
+            <h3 className='center-text' key='1'>1: make art together</h3>
+            <h3 className='center-text' key='2'>2: ask questions if you have questions</h3>
+            <h3 className='center-text' key='3'>3: offer knowledge if you have knowledge</h3>
           </div>
-          <h4 key='4' className='linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
+          <h4 key='4' className='center-text linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
           <div key='5' className='parent'>
             <p>
               {
