@@ -157,7 +157,12 @@ const art6 = {
   </div>,
 }
 
-
+function shuffleArray(array : any) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 export default function Home() {
   const initialArts = [
@@ -187,14 +192,17 @@ export default function Home() {
       setArts(newarts);
     }
 
-
     return (
       <span key={artist.text} className='linker' onClick={buttonClick}>
         | WORKS BY {artist.text} |
       </span>)
   }
 
-  let counter = 0;
+  function randomizeArts() {
+    let randomArts = initialArts;
+    shuffleArray(randomArts);
+    setArts(randomArts);
+  }
 
   return (
         <main>
@@ -205,7 +213,8 @@ export default function Home() {
             <h3 className='center-text' key='2'>2: ask questions if you have questions</h3>
             <h3 className='center-text' key='3'>3: offer knowledge if you have knowledge</h3>
           </div>
-          <h4 key='4' className='center-text linker' onClick={() => setArts(initialArts)}>ALL WORKS</h4>
+          <h4 key='4' className='center-text linker' onClick={() => setArts(initialArts)}>SHOW ALL WORKS</h4>
+          <h4 key='4' className='center-text linker' onClick={() => randomizeArts()}>SHOW ALL WORKS IN A RANDOM ORDER</h4>
           <div key='5' className='parent center-text'>
             <p>
               {
