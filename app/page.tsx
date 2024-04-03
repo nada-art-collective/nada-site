@@ -29,7 +29,7 @@ const art1 = {
   title: 'The Departure of Vell',
   authors: ['MAGGIE SULLIVAN', 'AUTUMN SHELBY'],
   content: 
-  <div key='The Departure of Vell'> 
+  <div key='t1'> 
     <h3>The Departure of Vell</h3>
     <div className='parent'>
       <p className='left-text'>
@@ -62,8 +62,8 @@ const art3 = {
   content: 
   <div key='t3'> 
     <h3>Untitled 4</h3>
+    <p>silk screen on paper</p>
     <div className='parent'>
-      <p>Untitled 4: silk screen on paper.</p>
       <br/>
       <div className='img-holder'>
         <ExportedImage
@@ -79,12 +79,13 @@ const art4 = {
   title: 'Placeholder 3',
   authors: ['KIER ZIMMERMAN', 'MAGGIE SULLIVAN'],
   content:
-  <div key='t4' className='parent'>
+  <div key='t4'>
     <h3>Placeholder 3</h3>
-    <br/>
-    <p className='left-text'>
-      Placeholder 3 is a project by Kier Zimmerman and Maggie Sullivan.
-    </p>
+    <div className='parent'>
+      <p className='left-text'>
+        Placeholder 3 is a project by Kier Zimmerman and Maggie Sullivan.
+      </p>
+    </div>
   </div>
 }
 
@@ -92,16 +93,16 @@ const art5 = {
   title: 'Untitled 5',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t5' className='parent'> 
+  <div key='t5'> 
     <h3>Untitled 5</h3>
-    <br/>
-    <p>Untitled 5: silk screen on paper.</p>
-    <br/>
-    <div className='img-holder'>
-      <ExportedImage
-        src={sullivanUntitled5}
-        alt="Print of a child scared and crouched. Shadows of ghosts across the wall behind them and their face."
-      />
+    <p>silk screen on paper</p>
+    <div className='parent'>
+      <div className='img-holder'>
+        <ExportedImage
+          src={sullivanUntitled5}
+          alt="Print of a child scared and crouched. Shadows of ghosts across the wall behind them and their face."
+        />
+      </div>
     </div>
   </div>,
 }
@@ -110,22 +111,22 @@ const art6 = {
   title: 'Room in Delles',
   authors: ['MAGGIE SULLIVAN'],
   content: 
-  <div key='t5' className='parent'> 
+  <div key='t6'> 
     <h3>Room in Delles</h3>
-    <br/>
-    <p>Room in Delles: intaglio on paper.</p>
-    <br/>
-    <div className='img-holder'>
-        <ExportedImage
-          key='1'
-          src={sullivanDelles}
-          alt="Print of a room."
-        />
-        <ExportedImage
-          key='2'
-          src={sullivanDellesMis}
-          alt="Print of a room, but half the elements are upside-down and backwards printed."
-        />
+    <p>intaglio on paper</p>
+    <div className='parent'>
+      <div className='img-holder'>
+          <ExportedImage
+            key='1'
+            src={sullivanDelles}
+            alt="Print of a room."
+          />
+          <ExportedImage
+            key='2'
+            src={sullivanDellesMis}
+            alt="Print of a room, but half the elements are upside-down and backwards printed."
+          />
+      </div>
     </div>
   </div>,
 }
