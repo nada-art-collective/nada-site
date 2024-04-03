@@ -66,6 +66,12 @@ body {
     margin: 0;
 }
 
+iframe {
+    width: 640;
+    height: 420;
+    border: 0;
+    margin: 0;
+}
 button {
     padding: 10px;
     border: none;
