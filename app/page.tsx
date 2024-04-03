@@ -219,7 +219,11 @@ export default function Home() {
             <p className='center-text'>
               If you want to recieve a (more or less) weekly newsletter, submit your email here. NADA will absolutely never sell your information or send you advertisements.
             </p>
+            <br/>
+            <br/>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfXRZF-7xeUh0m8etf1WtBgXGgha7PxK5ylwby8f9pUhr6b6w/viewform?embedded=true">Loading…</iframe>
+            <br/>
+            <br/>
             <p className='center-text'>
               To contribute, submit a pull request at <a href='https://github.com/nada-art-collective/nada-site'>the github repo</a> or email us at nadaartcollective@gmail.com.
             </p>
