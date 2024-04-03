@@ -215,6 +215,13 @@ export default function Home() {
             <br key='4'/>
             <br key='5'/>
           </div>
+          <p className='center-text'>
+            If you want to recieve a (more or less) weekly newsletter, submit your email here. NADA will absolutely never sell your information or send you advertisements.
+          </p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfXRZF-7xeUh0m8etf1WtBgXGgha7PxK5ylwby8f9pUhr6b6w/viewform?embedded=true">Loading…</iframe>
+          <p className='left-text'>
+            To contribute, submit a pull request at <a href='https://github.com/nada-art-collective/nada-site'>the github repo</a> or email us at nadaartcollective@gmail.com.
+          </p>
         </main>
     // </div>
 )
