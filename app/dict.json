@@ -1,5 +1,6 @@
 {
-    "words_n": ["nary", "nootropic", "neither",
+    "words_n": [
+        "nary", "nootropic", "neither",
         "nincompoop", "nearest", "nob",
         "nickel", "nowish", "newer",
         "nameless", "nordic", "needling",
@@ -19,12 +20,24 @@
         "nostomanic", "notalgic", "nostalgic",
         "nothous", "nous", "novenary",
         "nuciferous", "numinous", "nupson",
-        "nymph", "nychthemeral", "nympholeptic",
+        "nymphoid", "nychthemeral", "nympholeptic",
         "narrative", "nonconforming", "nonplussed",
         "nectarine", "numbed", "neemly",
         "nauseous", "nautilus", "nun",
         "never", "nope", "nobly",
-        "non", "not"
+        "non", "not", "necrotic",
+        "neurotic", "nepalese", "nimbus",
+        "necromancer", "neopolitan", "nipple",
+        "nondemocratic", "neither", "noncommittal",
+        "nor", "neurotypical", "neanderthal",
+        "narcotic", "nonstop", "nictate",
+        "nicotine", "nonbinary", "n00b",
+        "newbie", "neophyte", "nephilim",
+        "nerdy", "nerfed", "neverland",
+        "nomenclature", "(g)nomish", "(p)neumatic",
+        "nevermind", "(k)nife", "necropolis",
+        "Nefertiti", "nope", "notarized",
+        "noticeable"
     ],
     "words_a": [
         "absolute", "architected", "angelic",
@@ -66,7 +79,17 @@
         "axiomatic", "adios", "aggressive",
         "absent-minded", "awhile", "anthropocene",
         "apostize", "apostrophe", "ameliorate",
-        "affluent"
+        "affluent", "anesthesia", "altimeter",
+        "altitude", "albedo", "asteroid",
+        "astronaut", "astral", "astronomical",
+        "active", "asexual", "argon",
+        "albacore", "argyle", "archipelago",
+        "asymptote", "ample", "actuary",
+        "acronym", "antonym", "aches",
+        "apoplectic", "apologetic", "apropos",
+        "astonishing", "amniotic", "apircot",
+        "anemic", "amnesia", "acclimatize",
+        "accelerate", "Anubis", "acropolis"
     ],
     "words_d": [
         "devilish", "deterred", "detested",
@@ -93,6 +116,24 @@
         "dissertation", "didactic", "delinquent",
         "deliberate", "diploma", "deployed",
         "deplume", "disembowel", "disgraced",
-        "detained", "domestic"
+        "detained", "domestic", "dick",
+        "dinosaur", "diaphenous", "dietician",
+        "dipole", "drum", "disfigurement",
+        "disparate", "dissolve", "dignity",
+        "dubious", "darn", "doobie",
+        "death", "dye", "dragnet",
+        "dragonfly", "dragon", "drag",
+        "drip", "drop", "drab",
+        "divergence", "degeneracy", "dirigible",
+        "didgeridoo", "duality", "duopoly",
+        "dichotomy", "donut", "dress",
+        "drift", "drifters", "drafting",
+        "doggone", "doggy", "dirt",
+        "directive", "doppelganger", "dervish",
+        "durian", "derby", "dormitory",
+        "doormat", "dirge", "durable",
+        "dirk", "duck", "duckie",
+        "dust", "distended", "disdain",
+        "deter", "dogma", "disposable"
     ]
 }
