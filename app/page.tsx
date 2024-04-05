@@ -9,7 +9,7 @@ import sullivanUntitled4 from '../public/images/sullivan-untitled-4.jpg'
 import sullivanUntitled5 from '../public/images/sullivan-untitled-5.jpg'
 import sullivanDelles from '../public/images/sullivan-delles.jpg'
 import sullivanDellesMis from '../public/images/sullivan-delles-misprint.jpg'
-
+import dictionaries from './dict.json'
 
 function Art({art} : {art : any}) {
   return (
@@ -149,6 +149,20 @@ const art6 = {
   </div>,
 }
 
+function getRandomElement(items : any) {
+    return items[Math.floor(Math.random()*items.length)];
+}
+
+function getAcronym() {
+    return (getRandomElement(dictionaries['words_n']) +
+        ' ' +
+        getRandomElement(dictionaries['words_a']) +
+        ' ' +
+        getRandomElement(dictionaries['words_d']) +
+        ' ' +
+        getRandomElement(dictionaries['words_a']))
+}
+
 function shuffleArray(array : any) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -156,11 +170,15 @@ function shuffleArray(array : any) {
     }
 }
 
+
+
 export default function Home() {
   const initialArts = [
     art1, art2, art3, art4, art5, 
     art6];
   const [arts, setArts] = useState(initialArts);
+
+  const acronym = getAcronym();
 
   const artists = [
     'KIER ZIMMERMAN',
@@ -196,9 +214,12 @@ export default function Home() {
     setArts(randomArts);
   }
 
+
+
   return (
         <main>
           <h1 className='center-text' key='1'>N. A. D. A.</h1>
+          <h2 className='center-text' key='1.5'>{acronym}</h2>
           <h2 className='center-text' key='2'>an art collective</h2>
           <div key='3'>
             <h3 className='center-text' key='1'>make art together</h3>
