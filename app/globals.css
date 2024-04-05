@@ -10,7 +10,6 @@ img {
 
 h1 {
     font-size: 600%;
-    padding: 20px;
 }
 
 h2 {
@@ -83,6 +82,10 @@ button {
 
 .img-holder {
     max-width: 50vw;
+}
+
+.acronym {
+    padding-bottom: 20px;
 }
 
 .parent {
