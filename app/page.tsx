@@ -219,7 +219,7 @@ export default function Home() {
   return (
         <main>
           <h1 className='center-text' key='1'>N. A. D. A.</h1>
-          <h2 className='center-text' key='1.5'>({acronym})</h2>
+          <h3 className='center-text' key='1.5'>({acronym})</h3>
           <h2 className='center-text' key='2'>an art collective</h2>
           <div key='3'>
             <h3 className='center-text' key='1'>make art together</h3>
