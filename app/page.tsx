@@ -260,7 +260,7 @@ export default function Home() {
             </div>
           </div>
           <h4 key='4' className='center-text linker' onClick={() => setArts(initialArts)}>SHOW ALL WORKS</h4>
-          <h4 key='4' className='center-text linker' onClick={() => randomizeArts()}>SHOW ALL WORKS IN A RANDOM ORDER</h4>
+          <h4 key='4' className='center-text linker' onClick={randomizeArts}>SHOW ALL WORKS IN A RANDOM ORDER</h4>
           <div key='5' className='parent center-text'>
             <p>
               {
