@@ -243,7 +243,7 @@ export default function Home() {
         <main>
           <h1 className='center-text' key='1'>N. A. D. A.</h1>
           <h3 className='center-text acronym' key='1.5'>({acronym})</h3>
-          <h2 className='center-text' key='2'>an art collective</h2>
+          <h3 className='center-text' key='2'>an art collective:</h3>
           <div key='3'>
             <h3 className='center-text' key='1'>make art together</h3>
             <h3 className='center-text' key='2'>ask questions if you have questions</h3>
