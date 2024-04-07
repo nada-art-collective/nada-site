@@ -33,6 +33,11 @@ p {
 /*    padding: 15px;*/
 }
 
+pre {
+    max-width: 800px;
+/*    padding: 15px;*/
+}
+
 main {
     text-align: center;
     background-color: #F0EAD6;

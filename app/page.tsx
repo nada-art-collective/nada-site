@@ -176,6 +176,46 @@ const art6 = {
   </div>,
 }
 
+// TEMPLATE FOR ADDING YOUR ART TO THIS PAGE:
+// Copy this template, remove the double-slashes that make it not do anything,
+// and fill in with your own information.
+// Then, add your name JUST AS IT APPEARS HERE to the list
+// on the line that starts with "const artists = "
+// rename this art object (replacing the big long all caps thing that starts
+// PLACEHOLDER_NAME with art11 if yours is the 11th, art73 if yours is the 73rd, etc)
+// and then put that new name in the list that starts on the line
+// which begins "const: initialArts = "
+const art7 = {
+  title: 'night at the pond',
+  authors: ['AUTUMN SHELBY'],
+  content: 
+  <div key='night at the pond' className='art'> 
+    <h3>night at the pond</h3>
+    <div className='parent'>
+      <pre className='left-text'>
+the moon is slim.
+a train rolls by.
+a gentle beast
+whose yellow lights
+from there within
+now phase between
+the silhouettes
+of shadow trees
+across the pond.
+the gentle wind
+in silences
+abides this hush.
+as circle stones
+all overgrown
+left standing lush —
+they croon to me.
+      </pre>
+    </div>
+  </div>,
+}
+
+
+
 function getRandomElement(items : any) {
     return items[Math.floor(Math.random()*items.length)];
 }
@@ -202,7 +242,7 @@ function shuffleArray(array : any) {
 export default function Home() {
   const initialArts = [
     art1, art2, art3, art4, art5, 
-    art6];
+    art6, art7];
   const [arts, setArts] = useState(initialArts);
 
   const acronym = getAcronym();
