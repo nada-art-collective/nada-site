@@ -232,7 +232,7 @@ export default function Home() {
   }
 
   function randomizeArts() {
-    let randomArts = initialArts;
+    let randomArts = [...initialArts];
     shuffleArray(randomArts);
     setArts(randomArts);
   }
