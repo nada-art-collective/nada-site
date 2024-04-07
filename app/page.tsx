@@ -192,7 +192,7 @@ const art7 = {
   <div key='night at the pond' className='art'> 
     <h3>night at the pond</h3>
     <div className='parent'>
-      <pre className='left-text'>
+      <pre className='center-text'>
 the moon is slim.
 a train rolls by.
 a gentle beast
