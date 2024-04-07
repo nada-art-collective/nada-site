@@ -113,14 +113,16 @@ const art3 = {
 }
 
 const art4 = {
-  title: 'Placeholder 3',
-  authors: ['KIER ZIMMERMAN', 'MAGGIE SULLIVAN'],
+  title: 'RUR',
+  authors: ['KIER ZIMMERMAN'],
   content:
   <div key='t4' className='art'>
-    <h3>Placeholder 3</h3>
+    <h3>RUR</h3>
     <div className='parent'>
       <p className='left-text'>
-        Placeholder 3 is a project by Kier Zimmerman and Maggie Sullivan.
+        RUR is an upcoming performance based on Karel Čapek's play Rossum's Universal Robots.
+        RUR is to be directed by Kier Zimmerman and will be put on in the APE space in Northampton, Massachusetts.
+        The performers will be various other artists associated with NADA. Details to follow.
       </p>
     </div>
   </div>
