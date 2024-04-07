@@ -17,18 +17,45 @@ function Art({art} : {art : any}) {
   );
 }
 
-// const newArt = {
-//   title = 'title',
-//   authors = ['authors'],
-//   conten:
-//   <div key='key'>
-//     <h3>title</3>
+
+
+// TEMPLATE FOR ADDING YOUR ART TO THIS PAGE:
+// Copy this template, remove the double-slashes that make it not do anything,
+// and fill in with your own information.
+// Then, add your name JUST AS IT APPEARS HERE to the list
+// on the line that starts with "const artists = "
+// rename this art object (replacing the big long all caps thing that starts
+// PLACEHOLDER_NAME with art11 if yours is the 11th, art73 if yours is the 73rd, etc)
+// and then put that new name in the list that starts on the line
+// which begins "const: initialArts = "
+// const PLACEHOLDER_NAME_REPLACE_WITH_artN_WHERE_N_IS_NEXT_NUMBER = {
+//   title: 'PLACEHOLDER TITLE',
+//   authors: ['PLACEHOLDER NAME 1', 'PLACEHOLDER NAME 2'],
+//   content: 
+//   <div key='PLACEHOLDER' className='art'> 
+//     <h3>PLACEHOLDER TITLE</h3>
 //     <div className='parent'>
 //       <p className='left-text'>
-//         Description
+//         PLACEHOLDER TEXT
 //       </p>
 //     </div>
-//   </div>
+
+
+// This chunk here is only necessary if you're including an image.
+// Put it in the public/images file and import it as at the top of the page.
+// If you don't need an image, just delete this bit.
+//     <div className='parent'>
+//       <br/>
+//       <div className='img-holder'>
+//         <ExportedImage
+//           src={sullivanUntitled4}
+//           alt="Poster of hands overlapping, and the text 'What cannot be told, must be performed.'"
+//         />
+//       </div>
+//     </div>
+
+
+//   </div>,
 // }
 
 const art1 = {
@@ -183,11 +210,7 @@ export default function Home() {
   const artists = [
     'KIER ZIMMERMAN',
     'MAGGIE SULLIVAN',
-    'AUTUMN SHELBY',
-    'TEST ONE',
-    'TEST TWO',
-    'TEST THREE',
-    'TEST FOUR'
+    'AUTUMN SHELBY'
   ]
 
   function ArtistButton({artist} : {artist : any}) {
