@@ -75,19 +75,19 @@ const art1 = {
   </div>,
 }
 
-const art2 = {
-  title: 'Placeholder 1',
-  authors: ['KIER ZIMMERMAN'],
-  content: 
-  <div key='t2' className='art'> 
-    <h3>Placeholder 1</h3>
-    <div className='parent'>
-      <p className='left-text'>
-        Placeholder 1 is a project by Kier Zimmerman.
-      </p>
-    </div>
-  </div>,
-}
+// const art2 = {
+//   title: 'Placeholder 1',
+//   authors: ['KIER ZIMMERMAN'],
+//   content: 
+//   <div key='t2' className='art'> 
+//     <h3>Placeholder 1</h3>
+//     <div className='parent'>
+//       <p className='left-text'>
+//         Placeholder 1 is a project by Kier Zimmerman.
+//       </p>
+//     </div>
+//   </div>,
+// }
 
 const art3 = {
   title: 'Untitled 4',
@@ -243,7 +243,7 @@ function shuffleArray(array : any) {
 
 export default function Home() {
   const initialArts = [
-    art1, art2, art3, art4, art5, 
+    art4, art3, art1, art5, 
     art6, art7];
   const [arts, setArts] = useState(initialArts);
 
