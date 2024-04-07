@@ -193,22 +193,22 @@ const art7 = {
     <h3>night at the pond</h3>
     <div className='parent'>
       <pre className='center-text'>
-the moon is slim.
-a train rolls by.
-a gentle beast
-whose yellow lights
-from there within
-now phase between
-the silhouettes
-of shadow trees
-across the pond.
-the gentle wind
-in silences
-abides this hush.
-as circle stones
-all overgrown
-left standing lush —
-they croon to me.
+      the moon is slim.
+      a train rolls by.
+      a gentle beast
+      whose yellow lights
+      from there within
+      now phase between
+      the silhouettes
+      of shadow trees
+      across the pond.
+      the gentle wind
+      in silences
+      abides this hush.
+      as circle stones
+      all overgrown
+      left standing lush —
+      they croon to me.
       </pre>
     </div>
   </div>,
