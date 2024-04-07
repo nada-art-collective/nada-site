@@ -297,7 +297,7 @@ export default function Home() {
             </h2>
             <div className='parent'>
               <p className='left-text'>
-                Details to follow.
+                RUR is upcoming. Some details below, and more to follow.
               </p>
             </div>
           </div>
