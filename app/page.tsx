@@ -249,6 +249,16 @@ export default function Home() {
             <h3 className='center-text' key='2'>ask questions if you have questions</h3>
             <h3 className='center-text' key='3'>offer knowledge if you have knowledge</h3>
           </div>
+          <div key='3.5'>
+            <h2>
+              Upcoming performance this June in Northampton, Massachusetts!
+            </h2>
+            <div className='parent'>
+              <p className='left-text'>
+                Details to follow.
+              </p>
+            </div>
+          </div>
           <h4 key='4' className='center-text linker' onClick={() => setArts(initialArts)}>SHOW ALL WORKS</h4>
           <h4 key='4' className='center-text linker' onClick={() => randomizeArts()}>SHOW ALL WORKS IN A RANDOM ORDER</h4>
           <div key='5' className='parent center-text'>
