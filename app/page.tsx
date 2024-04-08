@@ -120,7 +120,7 @@ const art4 = {
     <h3>RUR</h3>
     <div className='parent'>
       <p className='left-text'>
-        RUR is an upcoming performance based on Karel Čapek's play Rossum's Universal Robots.
+        RUR will be a performance based on Karel Čapek's play Rossum's Universal Robots.
         RUR is to be directed by Kier Zimmerman and will be put on in the APE space in Northampton, Massachusetts.
         The performers will be various other artists associated with NADA. Details to follow.
       </p>
@@ -297,7 +297,7 @@ export default function Home() {
             </h2>
             <div className='parent'>
               <p className='left-text'>
-                RUR is upcoming. Some details below, and more to follow.
+                RUR is happening soon. Some details below, and more to follow.
               </p>
             </div>
           </div>
